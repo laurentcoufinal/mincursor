@@ -5,6 +5,8 @@ Select the most suitable candidate and mark its corresponding line as reserved.
 Then, fully implement this feature end-to-end until it is functional, covering all
 required layers (UI, business logic, database, file access, etc.). For each step,
 proceed as follows:
+- For all business logic related to a feature, develop it within a dedicated
+/{project}_{feature} directory.
 - Plan each phase in detail, including design, unit testing, integration testing,
 and acceptance criteria.
 - Choose the order of execution to facilitate integration.
@@ -16,8 +18,6 @@ trace directly back to your users stories and acceptance criteria.
 cases, and error scenarios
 - Generate comprehensive regression test suites whenever you modify existing
 functionality.
-- For all business logic related to a feature, develop it within a dedicated
-/{feature} directory.
 - For each function, first write unit tests to achieve at least 60% test coverage.
 Then, implement the function. Run the tests, fix any failing cases if necessary,
 and only then proceed to the next function.
@@ -26,3 +26,8 @@ validation before proceeding.
 - Apply all prescribed rules and best practices at each stage.
 - Document every step in a file named todolist-{project}-{feature}.md. Only mark
 steps as validated after I have explicitly confirmed them.
+
+When all steps are complete:
+- Create a new Git branch named {project}_{feature}
+- Commit your changes with the message {project}_{feature}
+- Push the new branch to the current remote repository
