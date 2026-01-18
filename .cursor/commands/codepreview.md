@@ -1,0 +1,1 @@
+as a user in when implementing more complex features, I want to review the code first before clicking apply. In this instance, I would like to use the command D to select a function and see how that function is used throughout the code in the preview mode in the chat
