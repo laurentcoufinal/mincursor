@@ -1,7 +1,6 @@
 # continuer-tracer-bullet
-For each feature listed in CDC{project}.md:
-- If the feature status is "reserved", locate the corresponding file named
-todolist-{project}-{feature}.md and proceed to complete all remaining unfinished
+
+-Take todolist-{project}-{feature}.md and proceed to complete all remaining unfinished
 steps in that file before continuing to the next feature :
 - For existing presentation and data access layers (files, databases, or
 services), do not rewrite code; instead, generalize the integration where possible
