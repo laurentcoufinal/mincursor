@@ -375,6 +375,9 @@ git clone --depth 1 https://github.com/user/repo.git
 git worktree add ../path branch-name
 - Ajoute un nouvel espace de travail pour une branche
 
+gh auth login
+- authentification avec token github
+
 git worktree list
 - Liste tous les espaces de travail
 
